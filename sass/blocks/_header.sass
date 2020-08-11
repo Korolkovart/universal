@@ -1,0 +1,108 @@
+.container
+  max-width: 1140px
+  margin: 0 auto
+.navbar
+  background-color: #FFFFFF
+  &-top
+    display: flex
+    align-items: center 
+.section
+  padding: 0
+  background-color: #FFFFFF
+  border: none
+  outline: none
+  display: flex
+  align-items: center
+  cursor: pointer
+  &__burger
+    margin-right: 16px
+  &::after
+    content: ""
+    width: 1px
+    height: 50px
+    background-color: #D9DADB
+    margin-left: 25px
+.search
+  display: flex
+  vertical-align: middle
+  margin-left: 26px
+  &__image
+    width: 18px
+    height: 18px
+    margin-right: 11px
+  &__input
+    width: 639px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    border: none
+    color: $grey-text
+.right
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 0 0 0 auto
+.promo
+  display: flex
+  justify-content: center
+  &__back
+    width: 66px
+    height: 44px
+    background-color: #BCBFC2
+    margin-top: 7px
+    display: flex
+    justify-content: center
+    align-items: flex-end
+  &__wrap
+    width: 60px
+    height: 41px
+    overflow: hidden
+  &__image
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &__text
+    display: flex
+    flex-direction: column
+    justify-content: center
+    margin-left: 10px
+    margin-right: 25px
+  &__title
+    font-style: normal
+    font-weight: 900
+    font-size: 12px
+    line-height: 15px
+    color: $dark-title
+  &__price
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    color: $grey-text
+.user
+  display: flex
+  &__wrap
+    width: 20px
+    height: 20px
+    overflow: hidden
+    margin-right: 10px
+  &__icon
+    width: 100%
+    height: 100%
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    // object-fit: cover
+  &__login
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    color: $dark-text
+.horizontal-line
+  width: 100%
+  height: 1px
+  background-color: #D9DADB
+

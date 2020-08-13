@@ -1,6 +1,3 @@
-.container
-  max-width: 1140px
-  margin: 0 auto
 .navbar
   background-color: #FFFFFF
   &-top
@@ -105,4 +102,67 @@
   width: 100%
   height: 1px
   background-color: #D9DADB
+.buttom
+  display: flex
+  align-items: center
+  justify-content: space-between
+.buttom
+  &__wrap
+    width: 100px
+    height: 84px
+    padding-left: 20px
+    overflow: hidden
+    &_image
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &__city
+    margin: 0 auto 0 15px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    color: $dark-text
+  &__date
+    margin: 0 41px 0 auto
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 20px
+    color: $dark-text
+  &__weather
+    display: flex
+    align-items: center
+    &_logo
+      width: 18px
+      height: 18px
+      margin-right: 10px
+    &_temperature
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 20px
+      color: $dark-text
+.logo
+  width: 184px
+  height: 31px
+.navbar
+  &-menu
+    padding: 17px 0 18px 0
+    background-color: $dark-title
+    &__list
+      display: flex
+      align-items: center
+      justify-content: space-between
+      padding: 0
+      margin: 0
+      list-style-type: none
+    &__link
+      font-style: normal
+      font-weight: 900
+      font-size: 14px
+      line-height: 20px
+      color: $light
+      text-decoration: none
+
 
